@@ -1,0 +1,27 @@
+{
+    "name": "snake",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/K0shal/snake.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/K0shal/snake.github.io/issues"
+    },
+    "homepage": "https://github.com/K0shal/snake.github.io#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "http": "0.0.1-security",
+        "nodemon": "^2.0.7",
+        "socket.io": "^4.1.2",
+        "socket.io-client": "^4.1.2"
+    }
+}
